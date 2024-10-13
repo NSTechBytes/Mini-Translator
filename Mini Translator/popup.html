@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Extension</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="title">Translation Extension</div>
+        <i id="darkModeToggle" class="fas fa-sun"></i>
+    </div>
+    <div id="main">
+        <textarea id="inputText" placeholder="Enter text to translate..."></textarea>
+        <select id="languageSelect">
+            <option value="af">Afrikaans</option>
+            <option value="sq">Albanian</option>
+            <option value="ar">Arabic</option>
+            <option value="az">Azerbaijani</option>
+            <option value="eu">Basque</option>
+            <option value="bn">Bengali</option>
+            <option value="be">Belarusian</option>
+            <option value="bg">Bulgarian</option>
+            <option value="ca">Catalan</option>
+            <option value="zh-CN">Chinese Simplified</option>
+            <option value="zh-TW">Chinese Traditional</option>
+            <option value="hr">Croatian</option>
+            <option value="cs">Czech</option>
+            <option value="da">Danish</option>
+            <option value="nl">Dutch</option>
+            <option value="en">English</option>
+            <option value="eo">Esperanto</option>
+            <option value="et">Estonian</option>
+            <option value="tl">Filipino</option>
+            <option value="fi">Finnish</option>
+            <option value="fr">French</option>
+            <option value="gl">Galician</option>
+            <option value="ka">Georgian</option>
+            <option value="de">German</option>
+            <option value="el">Greek</option>
+            <option value="gu">Gujarati</option>
+            <option value="ht">Haitian Creole</option>
+            <option value="iw">Hebrew</option>
+            <option value="hi">Hindi</option>
+            <option value="hu">Hungarian</option>
+            <option value="is">Icelandic</option>
+            <option value="id">Indonesian</option>
+            <option value="ga">Irish</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <option value="kn">Kannada</option>
+            <option value="ko">Korean</option>
+            <option value="la">Latin</option>
+            <option value="lv">Latvian</option>
+            <option value="lt">Lithuanian</option>
+            <option value="mk">Macedonian</option>
+            <option value="ms">Malay</option>
+            <option value="mt">Maltese</option>
+            <option value="no">Norwegian</option>
+            <option value="fa">Persian</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ro">Romanian</option>
+            <option value="ru">Russian</option>
+            <option value="sr">Serbian</option>
+            <option value="sk">Slovak</option>
+            <option value="sl">Slovenian</option>
+            <option value="es">Spanish</option>
+            <option value="sw">Swahili</option>
+            <option value="sv">Swedish</option>
+            <option value="ta">Tamil</option>
+            <option value="te">Telugu</option>
+            <option value="th">Thai</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukrainian</option>
+            <option value="ur">Urdu</option>
+            <option value="vi">Vietnamese</option>
+            <option value="cy">Welsh</option>
+            <option value="yi">Yiddish</option>
+        </select>
+        <button id="translateBtn">Translate</button>
+        <div id="outputText"></div>
+        <div class="button-container">
+            <button id="copyCodeBtn"><i class="fas fa-copy"></i> Copy Code</button>
+            <button id="ttsBtn"><i class="fas fa-volume-up"></i> Text-to-Speech</button>
+        </div>
+        <div class="file-buttons">
+            <input type="file" id="fileInput" class="file-input" accept=".txt">
+            <button id="uploadFileBtn"><i class="fas fa-upload"></i> Upload File</button>
+            <button id="downloadFileBtn"><i class="fas fa-download"></i> Download File</button>
+        </div>
+    </div>
+    <script src="assets/js/popup.js"></script>
+</body>
+
+</html>

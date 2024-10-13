@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Popup</title>
+    <link rel="stylesheet" href="assets/css/popup.css">
+</head>
+<body>
+    <div id="popupContent">
+        <div id="header">
+            <div class="title">Translation</div>
+            <i id="closePopup" class="fas fa-times"></i>
+        </div>
+        <div id="main">
+            <p id="originalText"></p>
+            <textarea id="translatedText" readonly></textarea>
+            <button id="copyBtn"><i class="fas fa-copy"></i> Copy</button>
+            <div id="notification">Copied to clipboard!</div>
+        </div>
+        <script src="assets/js/contextPopup.js"></script>
+    </div>
+</body>
+</html>
